@@ -1,5 +1,5 @@
 # Information
-Currently a work in progress board based on the RP2040 MCU. Planned PCB support would be access to all GPIO pins. Current functionality and purpose is to have a breakout for 11 buttons, 11 LEDs, 2 encoders, and 4 RGB pins. PS2 support is a planned feature as well.
+Currently a work in progress board based on the RP2040 MCU. Planned PCB support would be access to all GPIO pins. Current functionality and purpose is to have a breakout for 11 buttons, 11 LEDs, 2 encoders, and 2 RGB pins. PS2 support is a planned feature as well.
 
 # Render and Schematics
 [render](images/render.png)
@@ -7,4 +7,3 @@ Currently a work in progress board based on the RP2040 MCU. Planned PCB support 
 
 # Credits
 - [RP2040-designguide](https://github.com/Sleepdealr/RP2040-designguide/tree/main) to get started on the PCB designing aspects and schematics.
-- [speedypotat's Pico-Game-Controller](https://github.com/speedypotato/Pico-Game-Controller) to get started in verifying the board is working as intended.
