@@ -1,5 +1,5 @@
 # Information
-Currently a work in progress board based on the RP2040 MCU. Planned PCB support would be access to all GPIO pins. Current functionality and purpose is to have a breakout for 11 buttons, 11 LEDs, 2 encoders, and 2 RGB pins. PS2 support is a planned feature as well.
+Fully functionally working PCB utilizing the RP2040 MCU with all GPIO pins broken out and able to be utilized. Main purpose of the board is for usage in beatmania IIDX and Sound Voltex controllers. The PCB can be dropped into DJ DAO based beatmania IIDX controllers as a drop in replacement, utilizing the same pin layout as their original PCBs. Main functionality allows for the usage of 11 buttons, 11 5V LEDs, 2 RGB pins, and 2 quadrature encoders (analog should also be accepted in theory due to those being hooked up to all 4 analog pins). PS2 support should be possible as well on the current PCB, but untested at the moment. Two extra pins are also available either for RGB or other general purposes if needed.
 
 # Render and Schematics
 [render](images/render.png)
