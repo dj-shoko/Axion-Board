@@ -18681,6 +18681,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7128aaa4-093b-4ca6-8a47-8037e219688f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d1da312f-1750-4df2-a449-5759ee54cc52")
 		(sheetname "Root")
