@@ -8869,6 +8869,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.155 156.845) (xy 97.155 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf98920c-d4ca-4f72-bda3-be2abc7ae021")
+	)
+	(wire
+		(pts
 			(xy 153.035 17.78) (xy 155.575 17.78)
 		)
 		(stroke
@@ -9539,7 +9549,7 @@
 		)
 		(uuid "1437aa4e-67c4-4f87-8ba2-3e069bb8b395")
 	)
-	(label "GP19"
+	(label "GP21"
 		(at 86.36 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9572,7 +9582,7 @@
 		)
 		(uuid "1ab2502e-6b51-4da1-824e-4d59d22e622f")
 	)
-	(label "GP19"
+	(label "GP21"
 		(at 252.73 150.495 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10155,7 +10165,7 @@
 		)
 		(uuid "a5f5f667-7e21-4158-8b03-b1dd9b9b5e1f")
 	)
-	(label "GP19"
+	(label "GP21"
 		(at 40.005 142.875 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10166,7 +10176,7 @@
 		)
 		(uuid "a73a54df-6b7e-4eca-8af0-68b7d3dc3a55")
 	)
-	(label "GP18"
+	(label "GP20"
 		(at 252.73 147.955 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10254,7 +10264,7 @@
 		)
 		(uuid "b57b7985-c3e8-4d16-8a32-55435a50c94f")
 	)
-	(label "GP18"
+	(label "GP20"
 		(at 86.36 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10265,7 +10275,7 @@
 		)
 		(uuid "b63c78c0-7293-46ec-a58a-7737887d15d9")
 	)
-	(label "GP18"
+	(label "GP20"
 		(at 146.05 189.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10529,7 +10539,7 @@
 		)
 		(uuid "f6d0fa91-7ed0-4932-a88e-ce9eab3a3c30")
 	)
-	(label "GP19"
+	(label "GP21"
 		(at 146.05 191.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10551,7 +10561,7 @@
 		)
 		(uuid "ff2d2e8b-ef4a-4f6a-9f4b-eab6eb51c3af")
 	)
-	(label "GP18"
+	(label "GP20"
 		(at 40.005 137.795 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14639,6 +14649,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 94.615 159.385 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ddac569-801b-4890-bd76-2e6d58b6ae98")
+		(property "Reference" "#PWR077"
+			(at 94.615 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.234 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.615 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 94.615 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4513d7f-fe22-41c5-bced-ff9ac19795c3")
+		)
+		(instances
+			(project "Axion-Board"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 158.115 17.78 90)
 		(unit 1)
@@ -18458,6 +18533,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 97.155 156.845 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8622ed4c-508f-4a8a-b8ac-96071362f3e5")
+		(property "Reference" "#PWR080"
+			(at 97.155 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 96.52 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae98d777-2021-421a-a0af-9ed49aa2bfd2")
+		)
+		(instances
+			(project "Axion-Board"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 150.495 54.483 90)
 		(unit 1)
@@ -21241,6 +21381,75 @@
 			(project "Axion-Board"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
 					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x05_1")
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 99.695 164.465 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1da312f-1750-4df2-a449-5759ee54cc52")
+		(property "Reference" "J8"
+			(at 100.33 164.465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 101.6 161.925 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 99.695 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.695 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3fe183d-1ae9-429d-85c2-112322a54819")
+		)
+		(pin "2"
+			(uuid "e9c2dd2f-d9ab-44ea-a358-02a57c8964e7")
+		)
+		(instances
+			(project "Axion-Board"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "J8")
 					(unit 1)
 				)
 			)
